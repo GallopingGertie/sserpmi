@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install *)",
+      "Bash(pdftotext \"/Users/ggerti/impress/fast25-impress.pdf\" -)",
+      "Bash(python3 -c \"import PyPDF2; reader = PyPDF2.PdfReader\\('/Users/ggerti/impress/fast25-impress.pdf'\\); print\\(f'Total pages: {len\\(reader.pages\\)}'\\); [print\\(f'--- Page {i+1} ---'\\); print\\(reader.pages[i].extract_text\\(\\)[:3000]\\) for i in range\\(len\\(reader.pages\\)\\)]\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 -c ' *)",
+      "Bash(PYTHONPATH=/Users/ggerti/impress python3 *)",
+      "Bash(python3 *)"
+    ]
+  }
+}
